@@ -4,11 +4,11 @@ import (
 	"github.com/gorilla/mux"
 	"net/http"
 	"log"
-	DAO "GoApi/dao"
-	"GoApi/models"
+	DAO "go-movie-api-resource/dao"
+	"go-movie-api-resource/models"
 	"encoding/json"
 	"gopkg.in/mgo.v2/bson"
-	config2 "GoApi/config"
+	config2 "go-movie-api-resource/config"
 )
 
 var config = config2.Config{}

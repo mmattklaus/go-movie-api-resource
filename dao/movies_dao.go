@@ -3,7 +3,7 @@ package dao
 import (
 	"gopkg.in/mgo.v2"
 	"log"
-	"GoApi/models"
+	"go-movie-api-resource/models"
 	"gopkg.in/mgo.v2/bson"
 )
 
